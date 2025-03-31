@@ -3,7 +3,7 @@ jobs:
   build-and-test:
     machine:
       image: ubuntu-2204:2024.11.1
-      docker_layer_cashing: true
+      docker_layer_caching: true
     steps:
       - checkout
       - run: make deps
